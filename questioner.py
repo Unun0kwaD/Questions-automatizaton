@@ -38,21 +38,16 @@ def main():
             for id,line in enumerate(question_file):
                 line = line.strip()
                 if line:
-                     # Sending question and getting the answer
                     response = send_and_receive(f"{line} \\n {suffix2}" , f"{service_url}/chat")
                     # Podaj nazwę metody jaką można rozwiązać ten problem
-                    # Writing the answer to the answer file
                     print(response)
 
-                    # Sleeping for 30 seconds
                     time.sleep(10)
 
-                    # Getting the last message
                     last_message = get_last_message(f"{service_url}/lastmsg")
 
                     answer_file.write(str(last_message.text) + '\n')
                     
-                    # Printing the last message
                     print(f"{filename}:line:{id} Last Message: {last_message.text}")
                     # print(last_message.content)
                     # print(last_message.apparent_encoding)

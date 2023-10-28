@@ -64,3 +64,2265 @@ Opisany problem optymalizacyjny, w którym należy ustalić liczbę pracowników
 Nazwa metody: Programowanie Liniowe.
 
 W programowaniu liniowym można zdefiniować funkcję celu, która ma na celu minimalizację kosztu zatrudnienia, oraz zestaw ograniczeń dotyczących liczby pracowników w poszczególnych zmianach, liczby przepracowanych godzin i warunków dotyczących stawki godzinowej. Algorytm programowania liniowego znajdzie optymalne wartości zmiennych decyzyjnych (liczba pracowników na każdą zmianę), aby spełnić te ograniczenia i minimalizować funkcję celu.
+Podaj równania i nierówności potrzebne do rozwiązania tego problemu::
+Oznaczmy:
+
+x1
+x
+1
+	​
+
+ jako ilość litrów farby białej,
+x2
+x
+2
+	​
+
+ jako ilość litrów farby zielonej,
+x3
+x
+3
+	​
+
+ jako ilość litrów farby niebieskiej,
+x4
+x
+4
+	​
+
+ jako ilość litrów farby czerwonej.
+
+Dane:
+
+Dostępne surowce:
+Surowiec A: 
+230
+230 litrów,
+Surowiec B: 
+200
+200 litrów,
+Surowiec C: 
+170
+170 litrów.
+Dostępny czas roboczy: 
+160
+160 godzin.
+
+Ograniczenia surowców:
+
+Surowiec A: 
+0.3x1+0.6x2+0.35x3+0.15x4≤230
+0.3x
+1
+	​
+
++0.6x
+2
+	​
+
++0.35x
+3
+	​
+
++0.15x
+4
+	​
+
+≤230,
+Surowiec B: 
+0.25x1+0.2x2+0.45x3+0.55x4≤200
+0.25x
+1
+	​
+
++0.2x
+2
+	​
+
++0.45x
+3
+	​
+
++0.55x
+4
+	​
+
+≤200,
+Surowiec C: 
+0.45x1+0.2x2+0.2x3+0.3x4≤170
+0.45x
+1
+	​
+
++0.2x
+2
+	​
+
++0.2x
+3
+	​
+
++0.3x
+4
+	​
+
+≤170.
+
+Ograniczenia zamówień:
+4. Minimum farby białej: 
+x1≥125
+x
+1
+	​
+
+≥125,
+
+Minimum farby zielonej: 
+x2≥135
+x
+2
+	​
+
+≥135,
+Maksimum farby niebieskiej: 
+x3≤205
+x
+3
+	​
+
+≤205,
+Minimum farby czerwonej: 
+x4≥175
+x
+4
+	​
+
+≥175.
+
+Ograniczenie czasu roboczego:
+8. 
+T=0.1x1+0.2x2+0.1x3+0.15x4≤160
+T=0.1x
+1
+	​
+
++0.2x
+2
+	​
+
++0.1x
+3
+	​
+
++0.15x
+4
+	​
+
+≤160.
+
+Ograniczenia nieujemności:
+9. 
+x1,x2,x3,x4≥0
+x
+1
+	​
+
+,x
+2
+	​
+
+,x
+3
+	​
+
+,x
+4
+	​
+
+≥0.
+
+Funkcja celu (maksymalizacja zysku):
+
+Z=7x1+6x2+7x3+5x4
+Z=7x
+1
+	​
+
++6x
+2
+	​
+
++7x
+3
+	​
+
++5x
+4
+	​
+
+
+Ostatecznie, system równań i nierówności do rozwiązania problemu optymalizacyjnego:
+
+	0.3x1+0.6x2+0.35x3+0.15x4≤230
+	0.25x1+0.2x2+0.45x3+0.55x4≤200
+	0.45x1+0.2x2+0.2x3+0.3x4≤170
+	x1≥125
+	x2≥135
+	x3≤205
+	x4≥175
+	T=0.1x1+0.2x2+0.1x3+0.15x4≤160
+	x1,x2,x3,x4≥0
+	​
+
+0.3x
+1
+	​
+
++0.6x
+2
+	​
+
++0.35x
+3
+	​
+
++0.15x
+4
+	​
+
+≤230
+0.25x
+1
+	​
+
++0.2x
+2
+	​
+
++0.45x
+3
+	​
+
++0.55x
+4
+	​
+
+≤200
+0.45x
+1
+	​
+
++0.2x
+2
+	​
+
++0.2x
+3
+	​
+
++0.3x
+4
+	​
+
+≤170
+x
+1
+	​
+
+≥125
+x
+2
+	​
+
+≥135
+x
+3
+	​
+
+≤205
+x
+4
+	​
+
+≥175
+T=0.1x
+1
+	​
+
++0.2x
+2
+	​
+
++0.1x
+3
+	​
+
++0.15x
+4
+	​
+
+≤160
+x
+1
+	​
+
+,x
+2
+	​
+
+,x
+3
+	​
+
+,x
+4
+	​
+
+≥0
+	​
+
+
+Funkcja celu: 
+Z=7x1+6x2+7x3+5x4
+Z=7x
+1
+	​
+
++6x
+2
+	​
+
++7x
+3
+	​
+
++5x
+4
+	​
+
+Oznaczmy:
+
+x1
+x
+1
+	​
+
+ jako ilość wyprodukowanych sztuk wyrobu W1,
+x2
+x
+2
+	​
+
+ jako ilość wyprodukowanych sztuk wyrobu W2.
+
+Dane:
+
+Nakłady limitowanych środków:
+Środek A: 
+36000
+36000 jednostek,
+Środek B: 
+50000
+50000 jednostek.
+Nakłady środków na jednostkę wyrobu:
+W1: 
+6
+6 jednostek A, 
+10
+10 jednostek B,
+W2: 
+6
+6 jednostek A, 
+5
+5 jednostek B.
+Zdolność produkcyjna W2: 
+≤4000
+≤4000 sztuk.
+
+Ograniczenia nakładów środków:
+
+Nakłady środka A: 
+6x1+6x2≤36000
+6x
+1
+	​
+
++6x
+2
+	​
+
+≤36000,
+Nakłady środka B: 
+10x1+5x2≤50000
+10x
+1
+	​
+
++5x
+2
+	​
+
+≤50000.
+
+Ograniczenia zdolności produkcyjnej:
+3. Zdolność produkcyjna W2: 
+x2≤4000
+x
+2
+	​
+
+≤4000.
+
+Ograniczenie nieujemności:
+4. 
+x1≥0
+x
+1
+	​
+
+≥0 (ilość wyrobów W1 nie może być ujemna),
+
+x2≥0
+x
+2
+	​
+
+≥0 (ilość wyrobów W2 nie może być ujemna).
+
+Funkcja celu (maksymalizacja zysku):
+
+Z=cx1+cx2
+Z=cx
+1
+	​
+
++cx
+2
+	​
+
+
+Ostatecznie, system równań i nierówności do rozwiązania problemu optymalizacyjnego:
+
+	6x1+6x2≤36000
+	10x1+5x2≤50000
+	x2≤4000
+	x1≥0
+	x2≥0
+	​
+
+6x
+1
+	​
+
++6x
+2
+	​
+
+≤36000
+10x
+1
+	​
+
++5x
+2
+	​
+
+≤50000
+x
+2
+	​
+
+≤4000
+x
+1
+	​
+
+≥0
+x
+2
+	​
+
+≥0
+	​
+
+
+Funkcja celu: 
+Z=cx1+cx2
+Z=cx
+1
+	​
+
++cx
+2
+	​
+
+, gdzie 
+c
+c to cena sprzedaży jednego wyrobu W1 lub W2.
+Oznaczmy:
+
+x1
+x
+1
+	​
+
+ jako ilość wyprodukowanych sztuk wyrobu W1,
+x2
+x
+2
+	​
+
+ jako ilość wyprodukowanych sztuk wyrobu W2.
+
+Dane:
+
+Nakłady limitowanych środków:
+Środek A: 
+96000
+96000 sztuk,
+Środek B: 
+80000
+80000 sztuk.
+Nakłady środków na jednostkę wyrobu:
+W1: 
+16
+16 jednostek A, 
+24
+24 jednostki B,
+W2: 
+16
+16 jednostek A, 
+10
+10 jednostek B.
+Zdolność produkcyjna:
+W1: 
+≤3000
+≤3000 sztuk,
+W2: 
+≤4000
+≤4000 sztuk.
+Stosunek produkcji W1 do W2: 
+3:2
+3:2.
+
+Ograniczenia nakładów środków:
+
+Nakłady środka A: 
+16x1+16x2≤96000
+16x
+1
+	​
+
++16x
+2
+	​
+
+≤96000,
+Nakłady środka B: 
+24x1+10x2≤80000
+24x
+1
+	​
+
++10x
+2
+	​
+
+≤80000.
+
+Ograniczenia zdolności produkcyjnej:
+3. Zdolność produkcyjna W1: 
+x1≤3000
+x
+1
+	​
+
+≤3000,
+
+Zdolność produkcyjna W2: 
+x2≤4000
+x
+2
+	​
+
+≤4000.
+
+Ograniczenie stosunku produkcji:
+5. Stosunek produkcji W1 do W2: 
+32x1=x2
+2
+3
+	​
+
+x
+1
+	​
+
+=x
+2
+	​
+
+.
+
+Ograniczenie nieujemności:
+6. 
+x1≥0
+x
+1
+	​
+
+≥0 (ilość wyrobów W1 nie może być ujemna),
+
+x2≥0
+x
+2
+	​
+
+≥0 (ilość wyrobów W2 nie może być ujemna).
+
+Funkcja celu (maksymalizacja zysku):
+
+Z=30x1+40x2
+Z=30x
+1
+	​
+
++40x
+2
+	​
+
+
+Ostatecznie, system równań i nierówności do rozwiązania problemu optymalizacyjnego:
+
+	16x1+16x2≤96000
+	24x1+10x2≤80000
+	x1≤3000
+	x2≤4000
+	32x1=x2
+	x1≥0
+	x2≥0
+	​
+
+16x
+1
+	​
+
++16x
+2
+	​
+
+≤96000
+24x
+1
+	​
+
++10x
+2
+	​
+
+≤80000
+x
+1
+	​
+
+≤3000
+x
+2
+	​
+
+≤4000
+2
+3
+	​
+
+x
+1
+	​
+
+=x
+2
+	​
+
+x
+1
+	​
+
+≥0
+x
+2
+	​
+
+≥0
+	​
+
+
+Funkcja celu: 
+Z=30x1+40x2
+Z=30x
+1
+	​
+
++40x
+2
+	​
+
+Oznaczmy:
+
+x1
+x
+1
+	​
+
+ jako ilość wyprodukowanych sztuk wyrobu W1,
+x2
+x
+2
+	​
+
+ jako ilość wyprodukowanych sztuk wyrobu W2.
+
+Dane:
+
+Czas pracy maszyn:
+Maszyna O: 
+33000
+33000 godzin,
+Maszyna P: 
+13000
+13000 godzin,
+Maszyna F: 
+80000
+80000 godzin.
+Czas produkcji na jednostkę wyrobu:
+W1: 
+3
+3 godziny na maszynie O, 
+1
+1 godzina na maszynie P,
+W2: 
+1
+1 godzina na maszynie O, 
+1
+1 godzina na maszynie P, 
+8
+8 godzin na maszynie F.
+Ograniczenie produkcji W2: 
+≤7000
+≤7000 sztuk.
+Zysk ze sprzedaży:
+W1: 
+1
+1 zł,
+W2: 
+3
+3 zł.
+
+Ograniczenia czasowe pracy maszyn:
+
+Czas pracy maszyny O: 
+3x1+x2≤33000
+3x
+1
+	​
+
++x
+2
+	​
+
+≤33000,
+Czas pracy maszyny P: 
+x1+x2≤13000
+x
+1
+	​
+
++x
+2
+	​
+
+≤13000,
+Czas pracy maszyny F: 
+5x1+8x2≤80000
+5x
+1
+	​
+
++8x
+2
+	​
+
+≤80000.
+
+Ograniczenie produkcji W2:
+4. Produkcja W2: 
+x2≤7000
+x
+2
+	​
+
+≤7000.
+
+Ograniczenie nieujemności:
+5. 
+x1≥0
+x
+1
+	​
+
+≥0 (ilość wyrobów W1 nie może być ujemna),
+
+x2≥0
+x
+2
+	​
+
+≥0 (ilość wyrobów W2 nie może być ujemna).
+
+Funkcja celu (maksymalizacja zysku):
+
+Z=1x1+3x2
+Z=1x
+1
+	​
+
++3x
+2
+	​
+
+
+Ostatecznie, system równań i nierówności do rozwiązania problemu optymalizacyjnego:
+
+	3x1+x2≤33000
+	x1+x2≤13000
+	5x1+8x2≤80000
+	x2≤7000
+	x1≥0
+	x2≥0
+	​
+
+3x
+1
+	​
+
++x
+2
+	​
+
+≤33000
+x
+1
+	​
+
++x
+2
+	​
+
+≤13000
+5x
+1
+	​
+
++8x
+2
+	​
+
+≤80000
+x
+2
+	​
+
+≤7000
+x
+1
+	​
+
+≥0
+x
+2
+	​
+
+≥0
+	​
+
+
+Funkcja celu: 
+Z=1x1+3x2
+Z=1x
+1
+	​
+
++3x
+2
+	​
+
+Oznaczmy:
+
+x1
+x
+1
+	​
+
+ jako ilość produktu P1 zakupionego,
+x2
+x
+2
+	​
+
+ jako ilość produktu P2 zakupionego.
+
+Dane:
+
+Ilość składnika w produkcie:
+Produkt P1: 
+3g
+3g składnika S1, 
+8g
+8g składnika S2, 
+12g
+12g składnika S3 na 
+1kg
+1kg,
+Produkt P2: 
+9g
+9g składnika S1, 
+4g
+4g składnika S2, 
+3g
+3g składnika S3 na 
+1kg
+1kg.
+Łączna minimalna ilość składnika w mieszance:
+27g
+27g składnika S1,
+32g
+32g składnika S2,
+36g
+36g składnika S3.
+
+Funkcja celu (minimalizacja kosztu):
+
+Z=6x1+9x2
+Z=6x
+1
+	​
+
++9x
+2
+	​
+
+
+Ograniczenia ilości składników w mieszance:
+
+Ilość składnika S1: 
+3x1+9x2≥27
+3x
+1
+	​
+
++9x
+2
+	​
+
+≥27,
+Ilość składnika S2: 
+8x1+4x2≥32
+8x
+1
+	​
+
++4x
+2
+	​
+
+≥32,
+Ilość składnika S3: 
+12x1+3x2≥36
+12x
+1
+	​
+
++3x
+2
+	​
+
+≥36.
+
+Ograniczenie nieujemności:
+4. 
+x1≥0
+x
+1
+	​
+
+≥0 (ilość produktu P1 nie może być ujemna),
+
+x2≥0
+x
+2
+	​
+
+≥0 (ilość produktu P2 nie może być ujemna).
+
+Ostatecznie, system równań i nierówności do rozwiązania problemu optymalizacyjnego:
+
+	3x1+9x2≥27
+	8x1+4x2≥32
+	12x1+3x2≥36
+	x1≥0
+	x2≥0
+	​
+
+3x
+1
+	​
+
++9x
+2
+	​
+
+≥27
+8x
+1
+	​
+
++4x
+2
+	​
+
+≥32
+12x
+1
+	​
+
++3x
+2
+	​
+
+≥36
+x
+1
+	​
+
+≥0
+x
+2
+	​
+
+≥0
+	​
+
+
+Funkcja celu: 
+Z=6x1+9x2
+Z=6x
+1
+	​
+
++9x
+2
+	​
+
+Oznaczmy:
+
+x1
+x
+1
+	​
+
+ jako ilość ton węgla A zakupionego,
+x2
+x
+2
+	​
+
+ jako ilość ton węgla B zakupionego.
+
+Dane:
+
+Ilość zanieczyszczenia w tonie węgla:
+Węgiel A: 
+0,02
+0,02 ton zanieczyszczenia fosforem, 
+3%
+3% zanieczyszczenia popiołem,
+Węgiel B: 
+0,05
+0,05 ton zanieczyszczenia fosforem, 
+5%
+5% zanieczyszczenia popiołem.
+Wymagania co najmniej:
+90
+90 ton opału,
+0,03%
+0,03% fosforu,
+4%
+4% popiołu.
+Cena zakupu węgla:
+Węgiel A: 
+200
+200 zł/t,
+Węgiel B: 
+100
+100 zł/t.
+
+Funkcja celu (minimalizacja kosztu):
+
+Z=200x1+100x2
+Z=200x
+1
+	​
+
++100x
+2
+	​
+
+
+Ograniczenia ilości zanieczyszczenia w mieszance:
+
+Ilość zanieczyszczenia fosforem: 
+0,02x1+0,05x2≤0,0003×(x1+x2)
+0,02x
+1
+	​
+
++0,05x
+2
+	​
+
+≤0,0003×(x
+1
+	​
+
++x
+2
+	​
+
+),
+Ilość zanieczyszczenia popiołem: 
+3%×x1+5%×x2≤0,04×(x1+x2)
+3%×x
+1
+	​
+
++5%×x
+2
+	​
+
+≤0,04×(x
+1
+	​
+
++x
+2
+	​
+
+).
+
+Ograniczenia ilości zakupionego węgla:
+3. Ilość zakupionego węgla: 
+x1+x2≥90
+x
+1
+	​
+
++x
+2
+	​
+
+≥90.
+
+Ograniczenie nieujemności:
+4. 
+x1≥0
+x
+1
+	​
+
+≥0 (ilość węgla A nie może być ujemna),
+
+x2≥0
+x
+2
+	​
+
+≥0 (ilość węgla B nie może być ujemna).
+
+Ostatecznie, system równań i nierówności do rozwiązania problemu optymalizacyjnego:
+
+	0,02x1+0,05x2≤0,0003×(x1+x2)
+	3%×x1+5%×x2≤0,04×(x1+x2)
+	x1+x2≥90
+	x1≥0
+	x2≥0
+	​
+
+0,02x
+1
+	​
+
++0,05x
+2
+	​
+
+≤0,0003×(x
+1
+	​
+
++x
+2
+	​
+
+)
+3%×x
+1
+	​
+
++5%×x
+2
+	​
+
+≤0,04×(x
+1
+	​
+
++x
+2
+	​
+
+)
+x
+1
+	​
+
++x
+2
+	​
+
+≥90
+x
+1
+	​
+
+≥0
+x
+2
+	​
+
+≥0
+	​
+
+
+Funkcja celu: 
+Z=200x1+100x2
+Z=200x
+1
+	​
+
++100x
+2
+	​
+
+Oznaczmy:
+
+x1
+x
+1
+	​
+
+ jako ilość wywrotek 8-tonowych,
+x2
+x
+2
+	​
+
+ jako ilość wywrotek 10-tonowych.
+
+Dane:
+
+Wywrotka 8-tonowa wykonuje 20 kursów dziennie.
+Wywrotka 10-tonowa wykonuje 20 kursów dziennie.
+Ładowność wywrotki 8-tonowej: 8 ton.
+Ładowność wywrotki 10-tonowej: 10 ton.
+Zużycie paliwa przez wywrotkę 8-tonową na kurs: 6 litrów.
+Zużycie paliwa przez wywrotkę 10-tonową na kurs: 8 litrów.
+Dzienny limit paliwa: 196 litrów.
+
+Funkcja celu (maksymalizacja ilości wywiezionego gruntu):
+
+Z=8x1+10x2
+Z=8x
+1
+	​
+
++10x
+2
+	​
+
+
+Ograniczenia ilości kursów dziennie:
+
+Ilość kursów wywrotki 8-tonowej: 
+x1≤20
+x
+1
+	​
+
+≤20,
+Ilość kursów wywrotki 10-tonowej: 
+x2≤20
+x
+2
+	​
+
+≤20.
+
+Ograniczenia ilości zużytego paliwa:
+3. Ilość zużytego paliwa przez wywrotki 8-tonowe: 
+6x1≤196
+6x
+1
+	​
+
+≤196,
+
+Ilość zużytego paliwa przez wywrotki 10-tonowe: 
+8x2≤196
+8x
+2
+	​
+
+≤196.
+
+Ograniczenia ilości wywiezionego gruntu:
+5. Ilość wywiezionego gruntu przez wywrotki 8-tonowe: 
+8x1
+8x
+1
+	​
+
+,
+
+Ilość wywiezionego gruntu przez wywrotki 10-tonowe: 
+10x2
+10x
+2
+	​
+
+.
+
+Ostatecznie, system równań i nierówności do rozwiązania problemu optymalizacyjnego:
+
+	x1≤20
+	x2≤20
+	6x1≤196
+	8x2≤196
+	x1≥0
+	x2≥0
+	​
+
+x
+1
+	​
+
+≤20
+x
+2
+	​
+
+≤20
+6x
+1
+	​
+
+≤196
+8x
+2
+	​
+
+≤196
+x
+1
+	​
+
+≥0
+x
+2
+	​
+
+≥0
+	​
+
+
+Funkcja celu: 
+Z=8x1+10x2
+Z=8x
+1
+	​
+
++10x
+2
+	​
+
+Oznaczmy:
+
+x
+x jako ilość wywrotek z mieszanką A,
+y
+y jako ilość wywrotek z mieszanką B.
+
+Dane:
+
+Urządzenie może wyprodukować maksymalnie 14 wywrotek mieszanki A na godzinę,
+Urządzenie może wyprodukować maksymalnie 7 wywrotek mieszanki B na godzinę,
+Wywrotki przewożące mieszankę A mogą wyjechać 7 razy na godzinę,
+Wywrotki przewożące mieszankę B mogą wyjechać 12 razy na godzinę,
+Urządzenie do załadunku może obsłużyć maksymalnie 8 wywrotek na godzinę,
+Zysk ze sprzedaży mieszanki A wynosi 50 zł za wywrotkę,
+Zysk ze sprzedaży mieszanki B wynosi 100 zł za wywrotkę.
+
+Funkcja celu (maksymalizacja dochodu):
+
+Z=50x+100y
+Z=50x+100y
+
+Ograniczenia ilości wywrotek produkowanych na godzinę:
+
+Ilość wywrotek mieszanki A nie może przekroczyć 14: 
+x≤14
+x≤14,
+Ilość wywrotek mieszanki B nie może przekroczyć 7: 
+y≤7
+y≤7.
+
+Ograniczenia ilości wyjazdów na godzinę:
+3. Wywrotki z mieszanką A mogą wyjechać 7 razy na godzinę: 
+x≤7
+x≤7,
+
+Wywrotki z mieszanką B mogą wyjechać 12 razy na godzinę: 
+y≤12
+y≤12.
+
+Ograniczenie obsługi przez urządzenie do załadunku:
+5. Urządzenie do załadunku może obsłużyć maksymalnie 8 wywrotek na godzinę: 
+x+y≤8
+x+y≤8.
+
+Nieujemność zmiennych decyzyjnych:
+6. 
+x≥0
+x≥0,
+
+y≥0
+y≥0.
+
+Ostateczny zbiór równań i nierówności:
+
+	x≤14
+	y≤7
+	x≤7
+	y≤12
+	x+y≤8
+	x≥0
+	y≥0
+	​
+
+x≤14
+y≤7
+x≤7
+y≤12
+x+y≤8
+x≥0
+y≥0
+	​
+
+
+Funkcja celu: 
+Z=50x+100y
+Z=50x+100y
+Oznaczmy:
+
+x
+x jako ilość stojaków zbudowanych z belki 3m,
+y
+y jako ilość stojaków zbudowanych z belek 2,5m.
+
+Dane:
+
+Do zbudowania jednego stojaka potrzebna jest jedna belka 3m i trzy belki 2,5m,
+Długość dostępnej długi to 5,7m.
+
+Cel:
+Minimalizacja odpadów, czyli minimalizacja liczby i długości odcinków krótszych niż 1m.
+
+Ograniczenia:
+
+Ilość belki 3m użytej w produkcji musi być większa lub równa liczbie stojaków zbudowanych z belki 3m: 
+x≤1000
+x≤1000,
+Ilość belki 2,5m użytej w produkcji musi być większa lub równa trzykrotnej liczbie stojaków zbudowanych z belek 2,5m: 
+y≤3×1000
+y≤3×1000,
+Długość belki 3m musi być pomnożona przez ilość stojaków zbudowanych z belki 3m i dodana do długości belki 2,5m pomnożonej przez trzykrotną ilość stojaków zbudowanych z belek 2,5m, a wynik musi być mniejszy lub równy dostępnej długości: 
+3x+3×2.5y≤5.7
+3x+3×2.5y≤5.7,
+Ilość stojaków zbudowanych z belki 3m oraz belek 2,5m musi być nieujemna: 
+x≥0
+x≥0, 
+y≥0
+y≥0.
+
+Ostateczny zbiór równań i nierówności:
+
+	x≤1000
+	y≤3000
+	3x+3×2.5y≤5.7
+	x≥0
+	y≥0
+	​
+
+x≤1000
+y≤3000
+3x+3×2.5y≤5.7
+x≥0
+y≥0
+	​
+
+
+Funkcja celu w tym przypadku nie jest bezpośrednio podana, ponieważ nie mamy bezpośredniego wpływu na długości odcinków odpadów. Odpady można minimalizować poprzez odpowiednią optymalizację procesu cięcia, ale to wymagałoby dodatkowych danych lub informacji o strategii cięcia.
+Oznaczmy:
+
+x
+x jako ilość nawozu A (w kg),
+y
+y jako ilość nawozu B (w kg),
+z
+z jako ilość nawozu C (w kg).
+
+Dane:
+
+Maksymalna łączna dawka nawozów azotowego i fosforowego na 1 ha nie może przekroczyć 30 kg: 
+24x+7y+15z≤30
+24x+7y+15z≤30,
+Minimalna dawka mikroelementu A to 240 g/ha: 
+24x≥240
+24x≥240,
+Minimalna dawka mikroelementu B to 210 g/ha: 
+7y≥210
+7y≥210,
+Minimalna dawka mikroelementu C to 162 g/ha: 
+15z≥162
+15z≥162,
+Zawartość mikroelementu A w dawce nawozowej nie może przekroczyć sumy zawartości mikroelementów B i C: 
+24x≤7y+15z
+24x≤7y+15z,
+Ilość każdego nawozu musi być nieujemna: 
+x≥0
+x≥0, 
+y≥0
+y≥0, 
+z≥0
+z≥0.
+
+Cel:
+Minimalizacja kosztu zakupu nawozów, który jest równy 
+3.5x+3y
+3.5x+3y.
+
+Ostateczny zbiór równań i nierówności:
+
+	24x+7y+15z≤30
+	24x≥240
+	7y≥210
+	15z≥162
+	24x≤7y+15z
+	x≥0
+	y≥0
+	z≥0
+	​
+
+24x+7y+15z≤30
+24x≥240
+7y≥210
+15z≥162
+24x≤7y+15z
+x≥0
+y≥0
+z≥0
+	​
+
+
+Funkcja celu:
+
+Minimalizuj 3.5x+3y
+Minimalizuj 3.5x+3y
+Oznaczmy:
+
+b
+b jako ilość bułek (w sztukach),
+g
+g jako ilość bagietek (w sztukach),
+c
+c jako ilość chlebów (w sztukach).
+
+Dane:
+
+Ilość ciasta na każdy rodzaj pieczywa: 
+b
+b bułek (10 dag), 
+g
+g bagietek (25 dag), 
+c
+c chlebów (65 dag),
+Dzienna dostępna ilość ciasta: 
+10b+25g+65c≤200
+10b+25g+65c≤200 (w kg),
+Ilość sztuk produktów w wsadzie: 
+70b+30g+10c≤maksymalna ilosˊcˊ w wsadzie
+70b+30g+10c≤maksymalna ilo
+s
+ˊ
+c
+ˊ
+ w wsadzie,
+Koszt energii elektrycznej: 
+0.03b+0.06g+0.2c≤62
+0.03b+0.06g+0.2c≤62 (w zł),
+Ograniczenie czasu pracy pieca: 
+20(b+g+c)≤600
+20(b+g+c)≤600 (20 minut na sztukę, 10 godzin dziennie).
+
+Cel:
+Maksymalizacja zysku, który jest równy przychodowi ze sprzedaży minus koszt energii i surowców.
+
+Równania i nierówności:
+
+	10b+25g+65c≤200
+	70b+30g+10c≤maksymalna ilosˊcˊ w wsadzie
+	0.03b+0.06g+0.2c≤62
+	20(b+g+c)≤600
+	b,g,c≥0
+	​
+
+10b+25g+65c≤200
+70b+30g+10c≤maksymalna ilo
+s
+ˊ
+c
+ˊ
+ w wsadzie
+0.03b+0.06g+0.2c≤62
+20(b+g+c)≤600
+b,g,c≥0
+	​
+
+
+Cel:
+Maksymalizuj 
+0.05b+1.2g+3.3c−(2.8⋅(10b+25g+65c))
+0.05b+1.2g+3.3c−(2.8⋅(10b+25g+65c)).
+Oznaczmy:
+
+x
+x jako ilość belek o długości 5 m, które zostaną pocięte na ramy o wymiarach 2.30 x 1.20 m,
+y
+y jako ilość belek o długości 5 m, które zostaną pocięte na okna o wymiarach 1.20 x 1.20 m.
+
+Dane:
+
+Do wykonania przynajmniej 60 drzwi balkonowych potrzeba co najmniej 60 kawałków o wymiarach 2.30 x 1.20 m, co można uzyskać z 
+2.30x
+2.30x długości belek,
+Do wykonania przynajmniej 45 okien potrzeba co najmniej 45 kawałków o wymiarach 1.20 x 1.20 m, co można uzyskać z 
+1.20y
+1.20y długości belek,
+Ilość odpadów (kawałków krótszych niż 0.5 m) jest ograniczona, zatem 
+0.3x+0.7y≤maksymalna ilosˊcˊ odpadoˊw
+0.3x+0.7y≤maksymalna ilo
+s
+ˊ
+c
+ˊ
+ odpad
+o
+ˊ
+w.
+
+Cel:
+Minimalizacja ilości użytych belek, czyli minimalizacja 
+x+y
+x+y.
+
+Równania i nierówności:
+
+	2.30x≥60
+	1.20y≥45
+	0.3x+0.7y≤maksymalna ilosˊcˊ odpadoˊw
+	x,y≥0
+	​
+
+2.30x≥60
+1.20y≥45
+0.3x+0.7y≤maksymalna ilo
+s
+ˊ
+c
+ˊ
+ odpad
+o
+ˊ
+w
+x,y≥0
+	​
+
+Oznaczmy zmiennymi 
+xij
+x
+ij
+	​
+
+, gdzie 
+i
+i oznacza oddział (A, B, C), a 
+j
+j oznacza sklep (P, Q, R, S). Zmienna 
+xij
+x
+ij
+	​
+
+ będzie oznaczać liczbę sztuk produktu przewożonych z oddziału 
+i
+i do sklepu 
+j
+j.
+
+Cel: Minimalizacja kosztu całkowitego transportu.
+
+Funkcja celu:
+
+min0.2xAP+0.3xAQ+1.1xAR+0.7xAS+0.1xBP+0.6xBR+0.1xBS+0.5xCP+0.8xCQ+1.5xCR+0.9xCS
+min0.2x
+AP
+	​
+
++0.3x
+AQ
+	​
+
++1.1x
+AR
+	​
+
++0.7x
+AS
+	​
+
++0.1x
+BP
+	​
+
++0.6x
+BR
+	​
+
++0.1x
+BS
+	​
+
++0.5x
+CP
+	​
+
++0.8x
+CQ
+	​
+
++1.5x
+CR
+	​
+
++0.9x
+CS
+	​
+
+
+Ograniczenia:
+
+	xAP+xAQ+xAR+xAS≤6000(Zasoby w A)
+	xBP+xBR+xBS≤1000(Zasoby w B)
+	xCP+xCQ+xCR+xCS≤10000(Zasoby w C)
+	xAP+xBP+xCP=7000(Zapotrzebowanie w P)
+	xAQ+xBQ+xCQ=5000(Zapotrzebowanie w Q)
+	xAR+xBR+xCR=3000(Zapotrzebowanie w R)
+	xAS+xBS+xCS=2000(Zapotrzebowanie w S)
+	xij≥0(Nieujemnosˊcˊ)
+	​
+
+x
+AP
+	​
+
++x
+AQ
+	​
+
++x
+AR
+	​
+
++x
+AS
+	​
+
+≤6000(Zasoby w A)
+x
+BP
+	​
+
++x
+BR
+	​
+
++x
+BS
+	​
+
+≤1000(Zasoby w B)
+x
+CP
+	​
+
++x
+CQ
+	​
+
++x
+CR
+	​
+
++x
+CS
+	​
+
+≤10000(Zasoby w C)
+x
+AP
+	​
+
++x
+BP
+	​
+
++x
+CP
+	​
+
+=7000(Zapotrzebowanie w P)
+x
+AQ
+	​
+
++x
+BQ
+	​
+
++x
+CQ
+	​
+
+=5000(Zapotrzebowanie w Q)
+x
+AR
+	​
+
++x
+BR
+	​
+
++x
+CR
+	​
+
+=3000(Zapotrzebowanie w R)
+x
+AS
+	​
+
++x
+BS
+	​
+
++x
+CS
+	​
+
+=2000(Zapotrzebowanie w S)
+x
+ij
+	​
+
+≥0(Nieujemno
+s
+ˊ
+c
+ˊ
+)
+	​
+
+Oznaczmy przez 
+xA
+x
+A
+	​
+
+, 
+xB
+x
+B
+	​
+
+ i 
+xC
+x
+C
+	​
+
+ ilość zakupionych jednostek akcji odpowiednio dla spółek A, B i C.
+
+Cel: Maksymalizacja zysku rocznego.
+
+Funkcja celu:
+
+max0.08xA+0.1xB+0.07xC
+max0.08x
+A
+	​
+
++0.1x
+B
+	​
+
++0.07x
+C
+	​
+
+
+Ograniczenia:
+
+	10xA+15xB+5xC≤20000(Dostępne sˊrodki)
+	xA+xB+xC≤18000(Ograniczenie ilosˊci akcji)
+	​
+
+10x
+A
+	​
+
++15x
+B
+	​
+
++5x
+C
+	​
+
+≤20000(Dostępne 
+s
+ˊ
+rodki)
+x
+A
+	​
+
++x
+B
+	​
+
++x
+C
+	​
+
+≤18000(Ograniczenie ilo
+s
+ˊ
+ci akcji)
+	​
+
+
+Ograniczenia ilości akcji i dostępnych środków gwarantują, że inwestor nie zakupi więcej akcji, niż dostępne są na rynku, oraz że nie przekroczy dostępnego budżetu. Nieujemność ilości akcji (
+xA
+x
+A
+	​
+
+, 
+xB
+x
+B
+	​
+
+, 
+xC
+x
+C
+	​
+
+) również musi być spełniona, ponieważ inwestor nie może zakupić ujemnej liczby akcji.
+Oznaczmy przez 
+x1,x2,…,x6
+x
+1
+	​
+
+,x
+2
+	​
+
+,…,x
+6
+	​
+
+ liczbę pracowników zatrudnionych odpowiednio w godzinach 0-4, 4-8, 8-12, 12-16, 16-20 i 20-24.
+
+Cel: Minimalizacja kosztu zatrudnienia.
+
+Funkcja celu:
+
+min5⋅4⋅x1+7⋅4⋅x2+15⋅4⋅x3+10⋅4⋅x4+15⋅4⋅x5+9⋅4⋅x6+15⋅(x1+x2+x3+x4+x5+x6−8)
+min5⋅4⋅x
+1
+	​
+
++7⋅4⋅x
+2
+	​
+
++15⋅4⋅x
+3
+	​
+
++10⋅4⋅x
+4
+	​
+
++15⋅4⋅x
+5
+	​
+
++9⋅4⋅x
+6
+	​
+
++15⋅(x
+1
+	​
+
++x
+2
+	​
+
++x
+3
+	​
+
++x
+4
+	​
+
++x
+5
+	​
+
++x
+6
+	​
+
+−8)
+
+Ograniczenia:
+
+	x1≥0,x2≥0,x3≥0,x4≥0,x5≥0,x6≥0(Nieujemnosˊcˊ)
+	x1+x2+x3+x4+x5+x6≥40(Liczba pracownikoˊw w ciągu doby)
+	x1,x2,x3,x4,x5,x6≤8(Kaz˙dy pracownik pracuje do 8 godzin dziennie)
+	x1+x2≤8(Godziny 0-8)
+	x1+x2+x3≤8(Godziny 0-12)
+	x1+x2+x3+x4≤8(Godziny 0-16)
+	x1+x2+x3+x4+x5≤8(Godziny 0-20)
+	x1+x2+x3+x4+x5+x6≤8(Godziny 0-24)
+	​
+
+x
+1
+	​
+
+≥0,x
+2
+	​
+
+≥0,x
+3
+	​
+
+≥0,x
+4
+	​
+
+≥0,x
+5
+	​
+
+≥0,x
+6
+	​
+
+≥0(Nieujemno
+s
+ˊ
+c
+ˊ
+)
+x
+1
+	​
+
++x
+2
+	​
+
++x
+3
+	​
+
++x
+4
+	​
+
++x
+5
+	​
+
++x
+6
+	​
+
+≥40(Liczba pracownik
+o
+ˊ
+w w ciągu doby)
+x
+1
+	​
+
+,x
+2
+	​
+
+,x
+3
+	​
+
+,x
+4
+	​
+
+,x
+5
+	​
+
+,x
+6
+	​
+
+≤8(Ka
+z
+˙
+dy pracownik pracuje do 8 godzin dziennie)
+x
+1
+	​
+
++x
+2
+	​
+
+≤8(Godziny 0-8)
+x
+1
+	​
+
++x
+2
+	​
+
++x
+3
+	​
+
+≤8(Godziny 0-12)
+x
+1
+	​
+
++x
+2
+	​
+
++x
+3
+	​
+
++x
+4
+	​
+
+≤8(Godziny 0-16)
+x
+1
+	​
+
++x
+2
+	​
+
++x
+3
+	​
+
++x
+4
+	​
+
++x
+5
+	​
+
+≤8(Godziny 0-20)
+x
+1
+	​
+
++x
+2
+	​
+
++x
+3
+	​
+
++x
+4
+	​
+
++x
+5
+	​
+
++x
+6
+	​
+
+≤8(Godziny 0-24)
+	​
+
+
+Te równania i nierówności można sformułować w celu minimalizacji kosztu zatrudnienia przy podanych ograniczeniach.
