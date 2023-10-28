@@ -1,0 +1,66 @@
+suffix: Podaj w kilku słowach nazwę metody jaką można rozwiązać ten problem
+Ten problem optymalizacyjny, w którym należy maksymalizować zysk ze sprzedaży przy określonych ograniczeniach produkcji i zasobów, można rozwiązać za pomocą programowania liniowego. Metoda ta pozwala na skonstruowanie funkcji celu i zestawu ograniczeń, które opisują problem, a następnie znalezienie optymalnych wartości zmiennych decyzyjnych.
+
+Nazwa metody: Programowanie Liniowe.
+Ten problem optymalizacyjny, w którym należy maksymalizować zysk ze sprzedaży przy określonych ograniczeniach produkcji i dostępności zasobów, można rozwiązać za pomocą programowania liniowego. Metoda programowania liniowego pozwala na efektywne rozwiązanie tego typu problemów, które obejmują maksymalizację lub minimalizację funkcji celu przy jednoczesnym spełnieniu zestawu ograniczeń liniowych.
+
+Nazwa metody: Programowanie Liniowe.
+Rozwiązanie tego problemu optymalizacyjnego, w którym należy maksymalizować zysk ze sprzedaży przy określonych ograniczeniach produkcji i dostępności zasobów, można osiągnąć za pomocą programowania liniowego. Metoda programowania liniowego pozwala na efektywne rozwiązanie tego typu problemów, które obejmują maksymalizację lub minimalizację funkcji celu przy jednoczesnym spełnieniu zestawu ograniczeń liniowych.
+
+Nazwa metody: Programowanie Liniowe.
+Ten problem optymalizacyjny, w którym należy maksymalizować zysk ze sprzedaży przy określonych ograniczeniach produkcji i dostępności zasobów, można rozwiązać za pomocą programowania liniowego. W tym konkretnym przypadku, problem ten jest przykładem zadania programowania liniowego.
+
+Nazwa metody: Programowanie Liniowe.
+
+Programowanie liniowe pozwala na skonstruowanie funkcji celu oraz zestawu ograniczeń, które opisują problem, a następnie znajduje optymalne wartości zmiennych decyzyjnych (w tym przypadku, ilość wyprodukowanych jednostek W1 i W2), aby maksymalizować zysk przy jednoczesnym spełnieniu ograniczeń liniowych.
+Ten problem optymalizacyjny, w którym należy zminimalizować koszty zakupu składników potrzebnych do wytworzenia mieszanki paszowej przy jednoczesnym spełnieniu określonych wymagań żywieniowych, można rozwiązać za pomocą programowania liniowego. W tym przypadku, problem ten jest przykładem zadania programowania liniowego.
+
+Nazwa metody: Programowanie Liniowe.
+
+Programowanie liniowe pozwala na sformułowanie funkcji celu (w tym przypadku, minimalizacja kosztów zakupu składników) oraz zestawu ograniczeń, które opisują wymagania dotyczące ilości składników odżywczych w mieszance paszowej. Następnie, algorytm programowania liniowego znajduje optymalne wartości zmiennych decyzyjnych (ilość składników P1 i P2) spełniające te ograniczenia i minimalizujące funkcję celu.
+Ten problem optymalizacyjny, w którym należy wyznaczyć optymalną mieszaninę dwóch gatunków węgla, aby uzyskać najtańsze paliwo spełniające określone wymagania co do zanieczyszczeń, można rozwiązać za pomocą programowania liniowego. W tym przypadku, problem ten jest przykładem zadania programowania liniowego.
+
+Nazwa metody: Programowanie Liniowe.
+
+Programowanie liniowe pozwala na sformułowanie funkcji celu (w tym przypadku, minimalizacja kosztów zakupu mieszanki węgli) oraz zestawu ograniczeń, które opisują wymagania dotyczące zanieczyszczeń. Algorytm programowania liniowego znajduje optymalne proporcje (ilości) obu gatunków węgla, spełniające ograniczenia i minimalizujące funkcję celu.
+Opisany problem jest przykładem zadania optymalizacyjnego, w którym należy zoptymalizować ilość cykli przewozowych dla dwóch typów wywrotek, aby sumaryczna ilość wywiezion
+Opisany problem jest przykładem zadania optymalizacyjnego, w którym należy zoptymalizować ilość cykli przewozowych dla dwóch typów wywrotek, aby sumaryczna ilość wywiezionego gruntu była największa, przy jednoczesnym uwzględnieniu ograniczeń, takich jak dostępność paliwa, liczba kursów na wywrotkę, itp. Tego rodzaju zadania można rozwiązać za pomocą programowania liniowego.
+
+Nazwa metody: Programowanie Liniowe.
+
+W tym przypadku, można skonstruować funkcję celu, która ma na celu maksymalizację sumarycznej ilości wywiezionego gruntu, oraz zestaw ograniczeń, takich jak dostępność paliwa, liczba kursów, itp. Algorytm programowania liniowego będzie dążył do znalezienia optymalnych wartości zmiennych decyzyjnych (ilość kursów dla każdego typu wywrotki), które spełnią te ograniczenia i maksymalizują funkcję celu.
+Opisany problem jest przykładem zadania optymalizacyjnego, w którym należy zoptymalizować sposób cięcia dłużyc, aby zrealizować zamówienie na stojaki i jednocześnie zminimalizować ilość odpadów. Ten rodzaj problemu można rozwiązać za pomocą programowania dynamicznego.
+
+Nazwa metody: Programowanie dynamiczne.
+
+W przypadku programowania dynamicznego, problem jest dzielony na podproblemy, a optymalne rozwiązanie dla każdego podproblemu jest zapamiętywane, aby uniknąć wielokrotnego rozwiązywania tych samych problemów. W tym konkretnym przypadku, programowanie dynamiczne można zastosować do określenia optymalnego sposobu cięcia dłużyc w celu zrealizowania zamówienia na stojaki
+Opisany problem to zadanie optymalizacyjne, które można rozwiązać za pomocą programowania liniowego. W tym przypadku, celem jest minimalizacja kosztu zakupu nawozów mineralnych, spełniając jednocześnie ograniczenia dotyczące minimalnych dawek mikroelementów i łącznej dawki nawozów.
+
+Nazwa metody: Programowanie Liniowe.
+
+W programowaniu liniowym można zdefiniować funkcję celu, która ma na celu minimalizację kosztu zakupu nawozów, oraz zestaw ograniczeń dotyczących minimalnych dawek mikroelementów i łącznej ilości nawozów. Algorytm programowania liniowego znajd
+Ten problem optymalizacyjny, w którym należy ustalić plan wypieku maksymalizujący zysk przy jednoczesnym spełnieniu ograniczeń związanych z dostępną ilością ciasta, kosztem zużycia energii, czasem pracy pieca i ograniczeniami co do ilości wypiekanego pieczywa, można rozwiązać za pomocą programowania liniowego.
+
+Nazwa metody: Programowanie Liniowe.
+
+W programowaniu liniowym można zdefiniować funkcję celu, która ma na celu maksymalizację zysku, oraz zestaw ograniczeń dot
+Ten problem optymalizacyjny, w którym należy ustalić plan wypieku maksymalizujący zysk przy jednoczesnym spełnieniu ograniczeń związanych z dostępną ilością ciasta, kosztem zużycia energii, czasem pracy pieca i ograniczeniami co do ilości wypiekanego pieczywa, można rozwiązać za pomocą programowania liniowego.
+
+Nazwa metody: Programowanie Liniowe.
+
+W programowaniu liniowym można zdefiniować funkcję celu, która ma na celu maksymalizację zysku, oraz zestaw ograniczeń dotyczących dostępności ciasta, kosztu energii, czasu pracy pieca i ilości wypiekanego pieczywa. Algorytm programowania liniowego znajdzie optymalne wartości zmiennych decyzyjnych (ilość bułek, bagietek, chlebów do wypieku), aby spełnić te ograniczenia i maksymalizować funkcję celu.
+Ten problem optymalizacyjny, w którym należy zoptymalizować plan przewozu produktów między oddziałami a sklepami w celu zminimalizowania kosztu transportu, można rozwiązać za pomocą programowania liniowego.
+
+Nazwa metody: Programowanie Liniowe.
+
+W programowaniu liniowym można zdefiniować funkcję celu, która ma na celu minimalizację całkowitego kosztu transportu, oraz zestaw ograniczeń dotyczących ilości przewożonych produktów z każdego oddziału do każdego sklepu. Algorytm programowania liniowego znajdzie optymalne wartości z
+Ten problem optymalizacyjny, w którym należy zoptymalizować plan przewozu produktów między oddziałami a sklepami w celu zminimalizowania kosztu transportu, można rozwiązać za pomocą programowania liniowego.
+
+Nazwa metody: Programowanie Liniowe.
+
+W programowaniu liniowym można zdefiniować funkcję celu, która ma na celu minimalizację całkowitego kosztu transportu, oraz zestaw ograniczeń dotyczących ilości przewożonych produktów z każdego oddziału do każdego sklepu. Algorytm programowania liniowego znajdzie optymalne wartości zmiennych decyzyjnych (liczba sztuk produktów przewożonych między każdym oddziałem a sklepem), aby spełnić te ograniczenia i minimalizować funkcję celu.
+Opisany problem optymalizacyjny, w którym należy ustalić liczbę pracowników na poszczególne zmiany tak, aby koszt zatrudnienia był minimalny, można rozwiązać za pomocą programowania liniowego.
+
+Nazwa metody: Programowanie Liniowe.
+
+W programowaniu liniowym można zdefiniować funkcję celu, która ma na celu minimalizację kosztu zatrudnienia, oraz zestaw ograniczeń dotyczących liczby pracowników w poszczególnych zmianach, liczby przepracowanych godzin i warunków dotyczących stawki godzinowej. Algorytm programowania liniowego znajdzie optymalne wartości zmiennych decyzyjnych (liczba pracowników na każdą zmianę), aby spełnić te ograniczenia i minimalizować funkcję celu.
